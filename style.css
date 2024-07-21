@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    background-image: url(./architecture-bird-s-eye-view-buildings-2096698\ \(1\).jpg) ;
+            background-repeat:no-repeat;
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-position:center;
+            align-items: center;
+            justify-content: center;
+            display:flex;
+            background-blend-mode: multiply;
+            background-color: rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: #FEFEFE
+}
+nav{
+    position: sticky;
+    top: 0%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #333333;
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style:none ;
+    gap: 10%;
+    margin-right:5%;
+    align-items: center; 
+
+}
+li{
+    color: #FFFFFA;
+    font-size:3vw;
+    padding:5% ; 
+}
+li:hover{
+    background-color: #FF0035;
+    border-radius:15%; 
+    cursor: pointer;}
+
+h1{
+    color: #FEFEFE;
+    padding: 2%;
+    text-align: center;
+    align-self: center;
+    font-size: 5vw;
+    margin-left:2% ;
+}
+#sky_text{
+    color: #FEFEFE;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10vw;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#top_para{
+    text-align: center;
+    color: #FEFEFE;
+    padding-top: 2%;
+}
+#content{
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+display: flex;
+justify-content: center;
+margin-top: 2%;
+}
+#buttom{
+    background-color:rgb(140, 233, 47);
+    border: rgb(140, 233, 47) solid;
+    border-radius: 10px;
+    padding: 2%;
+    
+}
+#what{
+    background-color: #FEFEFE
+}
+#what_head{
+justify-content: center;
+display: flex;
+text-align: center;
+}
+.t_p{
+    color: rgb(140, 233, 47);
+}
+#wwd{
+    font-size: 5vw;
+    margin-bottom: 2%;
+}
+.logo{
+    background-color: rgb(140, 233, 47); 
+    height:50%;
+    width: 50%;
+    border:rgb(140, 233, 47) solid; 
+    border-radius: 100%;
+}
+#bank{
+display: flex;
+width: 33.3%;
+margin-left:2%;
+}
+#what_logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo_text{
+margin-left:2%;
+}
+#book{
+    display: flex;
+    width: 33.3%;
+}
+#pencil{
+    display: flex;
+    width: 33.3%;
+}
+.service_text{
+    font-size: 2vw
+}
+h3{
+    font-size: 4vw;
+}
+#main_2{
+    margin-top: 3%;
+    display: flex;
+}
+#people{
+    width: 50%;
+    height: auto;
+   
+}
+#people_pic{
+    width: 100%;
+    height: 100%;
+}
+#who{
+    background-color:#333333;
+    width: 50%;
+}
+#w_w_a{
+font-size: 7vw;
+}
+#w_w_a_text{
+font-size: 2vw;
+color: #FEFEFE;
+margin-left: 2%;
+}
+#o_t{
+    font-size: 7vw;
+    color: #FEFEFE;
+    margin-left: 2%;
+}
+h5{
+    color: #FEFEFE;
+    font-size: 2vw;
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 2%;
+}
+/* .role{
+    font-size:18px; 
+} */
+#head_3{
+display: flex;
+justify-content: center;
+font-size: 7vw;
+}
+#clients_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.c_l{
+    width: 10%;
+    margin: 2%
+
+}
+#contact{
+    background-color:rgb(140, 233, 47);
+     
+}
+#c_u{
+color: #FEFEFE;
+font-size: 5vw;
+margin-left: 2%;
+margin-top: 3%;
+
+}
+.c_u_p{
+color: #FEFEFE;
+margin:2% 4%;
+}
+#c_p{
+    color: #FEFEFE; 
+    margin:2%; 
+    font-size: 3vw;
+}
+#button2{
+color:#FEFEFE;
+background-color: #333333;
+border-radius: 20px;
+font-size: 3vw;
+text-align: center;
+padding:1vw 2vw; 
+margin-bottom: 2%;
+
+}
+footer{
+    background-color: #333333;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    color: #FEFEFE;
+    align-items: center;
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(140, 233, 47);
+}
+#buttom:hover{
+   background-color:rgb(66, 116, 16);
+    border: rgb(66, 116, 16) solid;
+    
+}
+}
+#we_are{
+    color: #FEFEFE
+}
+p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+input:hover{
+border: gray 2px solid;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    
+  #what_logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #main_2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+      }
+      #people{
+          width: 100%
+      }
+      #who{
+        width: 100%
+    }
